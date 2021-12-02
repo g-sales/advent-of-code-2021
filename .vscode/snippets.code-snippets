@@ -18,6 +18,10 @@
   "Day template": {
     "prefix": "template",
     "body": [
+      "import { readLines } from '../lib/input-reader'",
+      "",
+      "const data = readLines('day${0:1}')",
+      "",
       "const partOne = () => {}",
       "const partTwo = () => {}",
       "",
